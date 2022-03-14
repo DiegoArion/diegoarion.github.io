@@ -19,7 +19,6 @@ function estableceNombreUsuario() {
     } else {
       localStorage.setItem('nombre', miNombre);
       miTitulo.innerHTML = 'Mozilla is genial, ' + miNombre;
-    }
 }
 
 if (!localStorage.getItem('nombre')) {
