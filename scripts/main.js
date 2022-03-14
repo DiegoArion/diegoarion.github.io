@@ -27,7 +27,7 @@ if (!localStorage.getItem('nombre')) {
 }
 else {
     let nombreAlmacenado = localStorage.getItem('nombre');
-    miTitulo.textContent = 'Mozilla es genial,' + nombreAlmacenado;
+    miTitulo.textContent = 'Mozilla es genial, ' + nombreAlmacenado;
 }
 
 miBoton.onclick = function() {
